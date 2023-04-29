@@ -20,4 +20,4 @@ Data was obtained from [fangraphs](https://www.fangraphs.com/players/anthony-ren
 * title()
 * xlabel()
 * xticks()
-* savfeig()
+* savefig()
