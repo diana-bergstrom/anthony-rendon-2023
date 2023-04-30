@@ -1,9 +1,11 @@
 ## Project Description
-I used python to analyze and create a visualization of Anthony Rendon's walk and strikeout rates through the first 26 games of the 2023 season
 
-Data was obtained from [fangraphs](https://www.fangraphs.com/players/anthony-rendon/12861/splits?position=3B&season=2023) and downloaded as a CSV
+### Part 1
 
-## Skills Used
+I created a visualization of Anthony Rendon's walk and strikeout rates by analyzing data obtained from [fangraphs](https://www.fangraphs.com/players/anthony-rendon/12861/splits?position=3B&season=2023) from the first 26 games of the 2023 season using Python
+
+Skills Used
+
 * Python
 * numpy
 * pandas
@@ -21,3 +23,17 @@ Data was obtained from [fangraphs](https://www.fangraphs.com/players/anthony-ren
 * xlabel()
 * xticks()
 * savefig()
+
+### Part 2
+
+I performed data analysis using Python on data I collected from the first 26 games of the 2023 season to generate visualizations of the Los Angeles Angels' team statistics when Anthony Rendon leads off an inning
+
+* to_datetime()
+* sum()
+* tick_params()
+* mean()
+* axhline()
+
+## Conclusion
+
+Anthony Rendon walks more and strikes out less when he is hitting with runners on the basepaths, and the Angels as a team have a higher average and on base percentage for the season than they do when Anthony Rendon leads off an inning
