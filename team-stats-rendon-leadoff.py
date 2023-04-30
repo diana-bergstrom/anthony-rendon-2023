@@ -27,12 +27,11 @@ hittingstats.dtypes
 teamstats = hittingstats.groupby('opponent').sum()
 
 # create a figure with two axes for the two plots
-fig, (ax1, ax2) = plt.subplots(ncols=2, figsize=(16, 6))
+fig, (ax1, ax2) = plt.subplots(ncols=2, figsize=(17, 7))
 
 # plot the total hits and runs scored
 teamstats[['hits', 'runs scored']].plot(kind='bar', ax=ax1)
 ax1.set_xlabel('Opponent')
-ax1.set_ylabel('Count')
 ax1.set_title("LAA hits and runs scored during innings that Tony bats first")
 ax1.tick_params(axis='x', labelrotation=0)
 
@@ -54,7 +53,6 @@ ax2.legend()
 
 # add title and labels
 ax2.set_xlabel('Opponent')
-ax2.set_ylabel('Count')
 ax2.set_title("LAA team avg and obp during innings that Tony bats first")
 ax2.tick_params(axis='x', labelrotation=0)
 
