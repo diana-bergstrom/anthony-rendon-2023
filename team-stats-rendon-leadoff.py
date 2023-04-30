@@ -58,4 +58,7 @@ ax2.set_ylabel('Count')
 ax2.set_title("LAA team avg and obp during innings that Tony bats first")
 ax2.tick_params(axis='x', labelrotation=0)
 
+# move legend outside the plot area
+ax2.legend(loc='upper left', bbox_to_anchor=(1.0, 1.0))
+
 plt.savefig('teamstats.png')
