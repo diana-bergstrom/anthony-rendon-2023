@@ -1,8 +1,10 @@
 ## Project Description
 
+Analysis of basic hitting stats from the first 26 games of the Los Angeles Angels' 2023 MLB season using Python
+
 ### Part 1
 
-I created a visualization of Anthony Rendon's walk and strikeout rates by analyzing data obtained from [fangraphs](https://www.fangraphs.com/players/anthony-rendon/12861/splits?position=3B&season=2023) from the first 26 games of the 2023 season using Python
+Created a visualization of Anthony Rendon's walk and strikeout rates with data obtained from [fangraphs](https://www.fangraphs.com/players/anthony-rendon/12861/splits?position=3B&season=2023)
 
 Skills Used
 
@@ -26,7 +28,7 @@ Skills Used
 
 ### Part 2
 
-I performed data analysis using Python on data I collected from the first 26 games of the 2023 season to generate visualizations of the Los Angeles Angels' team statistics when Anthony Rendon leads off an inning
+Created visualizations of the Los Angeles Angels' team statistics when Anthony Rendon leads off an inning with data from [fangraphs](https://www.fangraphs.com/teams/angels)
 
 * to_datetime()
 * sum()
@@ -34,6 +36,6 @@ I performed data analysis using Python on data I collected from the first 26 gam
 * mean()
 * axhline()
 
-## Conclusion
+## Summary of Analysis
 
-Anthony Rendon walks more and strikes out less when he is hitting with runners on the basepaths, and the Angels as a team have a higher average and on base percentage for the season than they do when Anthony Rendon leads off an inning
+Anthony Rendon walks more and strikes out less when he is hitting with runners on the basepaths. In comparison to the innings where Anthony Rendon leads off, the Angels team as a whole displays a higher season-long average for both batting average and on-base percentage. Therefore, Anthony Rendon should not be slotted as the leadoff hitter in the lineup in order to limit the amount of at bats he has where he leads off an inning.
