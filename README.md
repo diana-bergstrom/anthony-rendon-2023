@@ -39,3 +39,7 @@ Created visualizations of the Los Angeles Angels' team statistics when Anthony R
 ## Summary of Analysis
 
 Anthony Rendon walks more and strikes out less when he is hitting with runners on the basepaths. In comparison to the innings where Anthony Rendon leads off, the Angels team as a whole displays a higher season-long average for both batting average and on-base percentage. Therefore, Anthony Rendon should not be slotted as the leadoff hitter in the lineup in order to limit the amount of at bats he has where he leads off an inning.
+
+![anthony_rendon_leadoff](https://github.com/diana-bergstrom/anthony-rendon-2023/assets/114450141/d2835001-9563-4ab1-8a8f-8ffa52f9d652)
+
+![teamstats_rendonleadoff](https://github.com/diana-bergstrom/anthony-rendon-2023/assets/114450141/6f65f5b6-99fa-43ff-afcc-1c7a8d6ece49)
